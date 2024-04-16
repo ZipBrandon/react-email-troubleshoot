@@ -7,6 +7,8 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+export { action } from "~/action.server.tsx";
+
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
